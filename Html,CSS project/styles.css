@@ -112,15 +112,27 @@
      text-align: right;
      word-spacing: 8px;
      font-family: Arial, sans-serif;
-    
+  
      
 }
+
+.navbar a {
+  transition: color 0.3s ease, text-decoration-color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: rgb(1, 0, 3);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
 
 .n1{
      
      margin: 4px;
      padding: 0 10px;
-   
+   font-family: 'Poppins', 'Arial Black', sans-serif;
      text-decoration: none;
-     color: rgb(3, 3, 44);
+     color: rgb(69, 69, 72);
+     
      }

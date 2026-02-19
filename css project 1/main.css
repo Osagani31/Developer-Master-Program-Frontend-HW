@@ -208,7 +208,7 @@ to{
     transform: translate(-300px, 0);
   }
   25% {
-    transform: translate(25vw, -10px); /
+    transform: translate(25vw, -10px); 
   }
   50% {
     transform: translate(50vw, 10px);  
@@ -246,3 +246,4 @@ to{
   from{ transform: translateY(-40px); }
   to{ transform: translateY(110vh); }
 }
+

@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ .body {
+  margin: 0;
+}
+
 .contact-details {
     width: 100%;
     height: 120px;
@@ -102,6 +111,8 @@
 
 .img {
     border: 0;
+    margin: 0;
+    vertical-align: top;
 }
 
 .navbar{
@@ -136,3 +147,68 @@
      color: rgb(69, 69, 72);
      
      }
+
+.cookie-banner {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: #fff;
+  color: #333;
+  padding: 14px 16px;
+  border-radius: 999px; 
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  max-width: 620px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+.cookie-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cookie-icon {
+  background: #f1f1f1;
+  border-radius: 50%;
+  padding: 8px;
+  font-size: 18px;
+}
+
+.cookie-banner p {
+  margin: 0;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.cookie-btn {
+  background: #0b3b8f; 
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+
+.cookie-btn:hover {
+  background: #082c69;
+}
+
+.herocontainer {
+    background-color: #082c69;
+    height:600px;
+    width:100%;
+     display: flex;
+}
+
+.aim{
+  background-color: goldenrod;
+  width:450px;
+  height:500px;
+  margin-top: 0%;
+}
